@@ -87,10 +87,10 @@ WSGI_APPLICATION = 'online_store.wsgi.application'
 DATABASES = {
     'default': {
         "ENGINE": 'django.db.backends.postgresql',
-        "NAME": "postgres",
-        "USER": "postgres",
-        "PASSWORD": "postgres",
-        "HOST": "db",
+        "NAME": "mastercomponent",
+        "USER": "component_admin",
+        "PASSWORD": "component_admin",
+        "HOST": "master-component.c5xioitkjb6k.us-east-1.rds.amazonaws.com",
         "PORT": 5432,
     }
 }
